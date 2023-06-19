@@ -7,12 +7,14 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-    
+    text-align: center;
+    color: #2e2f42;
+    line-height: 1.11;
+    text-transform: capitalize;    
 }
 .small_header{
+    letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -35,7 +37,7 @@ body{
 .nav-contact{
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; 
     color: #434455;
 }
 
@@ -54,10 +56,11 @@ body{
     cursor: pointer;
     /* IRIS */
     background: #4D5AE5;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* WHITE */
+    letter-spacing: 0.04em;
     color: #FFFFFF;
 }
 .btn:focus{
@@ -72,13 +75,13 @@ body{
     letter-spacing: 0.03em;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     text-transform: uppercase;
     /* IRIS */
     color: #4D5AE5;    
 }
 
-.logo2{
+.logo-second{
     color: #2E2F42;  
 }
 
@@ -90,16 +93,19 @@ body{
     list-style: none
 }
 
+.slogan-section{
+    background: #2E2F42;
+}
+
 .slogan{
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    background: #2E2F42;
-       
+    color: #FFFFFF;       
 }
+
 .description{
     font-size: 16px;
     line-height: 24px;
@@ -115,20 +121,27 @@ body{
 .footer{
     background: #2E2F42;
 }
-.logo3{
-    color: #F4F4FD;
+.logo-third{
+    color: #f4f4fd;
 }
-.btn1{
+.btn-portfolio{
     color: #4D5AE5;
+    font-family: inherit;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
-.btn1:focus{
+.btn-portfolio:focus{
     color: #FFFFFF;
     background: #404BBF;
 }
-.btn1:hover{
+.btn-portfolio:hover{
     color: #FFFFFF;
     background: #404BBF;
+}
+.team-section{
+    background-color: #F4F4FD;
+}
+.team-item{
+    background-color: #FFFFFF
 }
