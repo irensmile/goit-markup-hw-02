@@ -1,6 +1,7 @@
 body{
     font-family: Roboto, sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 .middle_header{
     font-weight: 700;
@@ -19,40 +20,40 @@ body{
 .nav-link{
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .nav-link:hover {
     color: #404BBF;    
 }
+
 .nav-link:focus {
     color: #404BBF;    
 }
+
 .nav-contact{
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: #434455;
 }
+
 .nav-contact:focus{
     color: #404BBF;
 }
+
 .nav-contact:hover{
     color: #404BBF;
 }
+
+.address{
+    font-style: normal 
+}
 .btn{
     cursor: pointer;
-    padding: 16px 32px;
-    gap: 10px;
-    width: 169px;
-    height: 56px;
-    left: 20px;
-    top: 20px;
     /* IRIS */
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    /* Button Text */
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -67,16 +68,28 @@ body{
 }
 
 .logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
+    text-transform: uppercase;
     /* IRIS */
     color: #4D5AE5;    
 }
+
 .logo2{
     color: #2E2F42;  
 }
+
+.link{
+    text-decoration: none
+}
+
+.list{
+    list-style: none
+}
+
 .slogan{
     font-weight: 700;
     font-size: 56px;
