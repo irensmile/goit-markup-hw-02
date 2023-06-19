@@ -1,8 +1,14 @@
+:root {
+    --body_bgr: #FFFFFF;
+    --main-color: #0000FF
+}
+
 body{
     font-family: Roboto, sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--body_bgr);
 }
+
 .middle_header{
     font-weight: 700;
     font-size: 36px;
@@ -130,13 +136,12 @@ body{
 .btn-portfolio{
     color: #4D5AE5;
     font-family: inherit;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
 }
 .btn-portfolio:focus{
     color: #FFFFFF;
